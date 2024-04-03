@@ -29,7 +29,7 @@ uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 [YouTube-anddea]
 enabled = true
 app-name = "YouTube"
-version = "latest"
+version = "auto"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "anddea"
