@@ -18,14 +18,14 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 enabled = true
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 included-patches = "'Hide inbox ads'"
 exclusive-patches = true
 
 [Facebook]
 enabled = true
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 # arch = "armeabi-v7a"
 
