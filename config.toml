@@ -14,19 +14,26 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
-[Messenger]
-enabled = true
+#[Messenger]
+#enabled = true
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 #uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-included-patches = "'Hide inbox ads'"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+#included-patches = "'Hide inbox ads'"
+#exclusive-patches = true
+
+
+[Messenger]
+enabled = true
+apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
+included-patches = "'Hide inbox ads' 'Hide inbox subtabs'"
 exclusive-patches = true
 
 [Facebook]
 enabled = true
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
-uptodown-dlurl = "https://facebook.en.uptodown.com/android"
+#uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 # arch = "armeabi-v7a"
 
 [YouTube-anddea]
