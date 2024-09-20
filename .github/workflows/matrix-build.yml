@@ -67,7 +67,7 @@ jobs:
           - id: "YouTube-anddea"
           #- id: "Music-anddea"
           - id: "YouTube"
-          #- id: "Music"
+          - id: "Google Photos"
          # - id: "Twitter"
          # - id: "Twitch"
          # - id: "TikTok"
