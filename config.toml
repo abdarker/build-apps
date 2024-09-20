@@ -27,6 +27,7 @@ arch= "arm64-v8a"
 [Messenger]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
+uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 included-patches = "'Hide inbox ads' 'Hide inbox subtabs'"
 exclusive-patches = true
 arch= "arm64-v8a"
@@ -38,15 +39,15 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 #uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 # arch = "armeabi-v7a"
 
-[YouTube-anddea]
-enabled = true
+[YouTube-Extended]
 app-name = "YouTube"
-version = "auto"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-rv-brand = "anddea"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+included-patches = "'Visual preferences icons'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Translations for YouTube'"
 build-mode = "apk"
-included-patches = "'MaterialYou'"
-excluded-patches = "'Enable language switch' 'Enable wide search bar' 'Hide account menu' 'Hide category bar' 'Hide time stamp' 'Translations'"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" 
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+arch= "arm64-v8a"
